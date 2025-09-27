@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <header className="bg-white border-b">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
