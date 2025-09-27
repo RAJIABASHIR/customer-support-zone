@@ -1,16 +1,14 @@
-# React + Vite
+1.What is JSX, and why is it used?
+Answer:JSX is a syntax extension that is use to write HTML-like code inside JavaScript, making UI easier to visualize. It is use to gets compiled to React.createElement() calls.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2.What is the difference between State and Props?
+Answer:The difference between State and Props are State is internal, mutable data managed within a component. Props are external, read-only inputs passed from parent to child.
 
-Currently, two official plugins are available:
+3.What is the useState hook, and how does it work?
+Answer:useState hook is a React hook that creates state variables in functional components. It is works for returns the current state and a function to update it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4.How can you share state between components in React?
+Answer:I can share state between components in React by lifting it up to a common parent or using Context/Redux for global state management.
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5.How is event handling done in React?
+Answer:Event handling done in React is use camelCase syntax (onClick) and passed functions instead of strings. Handlers receive a synthetic event object for consistency across browsers.
