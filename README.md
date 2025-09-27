@@ -12,3 +12,5 @@ Answer:I can share state between components in React by lifting it up to a commo
 
 5.How is event handling done in React?
 Answer:Event handling done in React is use camelCase syntax (onClick) and passed functions instead of strings. Handlers receive a synthetic event object for consistency across browsers.
+
+Live Link: https://cs-ticket-system-zone.netlify.app/
